@@ -18,7 +18,6 @@
         <module>apache-commons-sample</module>
         <module>other-sample</module>
         <module>jpa-sample</module>
-        <module>extension-sample</module>
         <module>rest-sample</module>
         <module>jee-sample</module>
     </modules>
