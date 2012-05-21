@@ -6,16 +6,25 @@
         <servlet-name>ServletUrlInformation</servlet-name>
         <servlet-class>org.kodejava.example.servlet.ServletUrlInformation</servlet-class>
     </servlet>
-    <servlet-mapping>
-        <servlet-name>ServletUrlInformation</servlet-name>
-        <url-pattern>/urlinfo</url-pattern>
-    </servlet-mapping>
     <servlet>
         <servlet-name>ContextPathDemo</servlet-name>
         <servlet-class>org.kodejava.example.servlet.ContextPathDemo</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>GetWebApplicationPathServlet</servlet-name>
+        <servlet-class>org.kodejava.example.servlet.GetWebApplicationPathServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ServletUrlInformation</servlet-name>
+        <url-pattern>/urlinfo</url-pattern>
+    </servlet-mapping>
     <servlet-mapping>
         <servlet-name>ContextPathDemo</servlet-name>
         <url-pattern>/ctxpath</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>GetWebApplicationPathServlet</servlet-name>
+        <url-pattern>/realpath</url-pattern>
     </servlet-mapping>
 </web-app>
