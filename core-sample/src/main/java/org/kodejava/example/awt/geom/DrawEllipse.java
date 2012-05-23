@@ -31,7 +31,7 @@ public class DrawEllipse extends JApplet {
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
         JApplet applet = new DrawEllipse();
-        frame.getContentPane().add("Center", applet);
+        frame.getContentPane().add(applet);
         frame.pack();
         frame.setSize(new Dimension(400, 400));
         frame.setVisible(true);
