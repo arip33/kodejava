@@ -51,7 +51,7 @@ public class DrawGeneralPath extends JApplet {
     }
 
     public static void main(String[] args) {
-        JFrame frame = new JFrame("Draw Ellipse Demo");
+        JFrame frame = new JFrame("Draw GeneralPath Demo");
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
         JApplet applet = new DrawGeneralPath();
